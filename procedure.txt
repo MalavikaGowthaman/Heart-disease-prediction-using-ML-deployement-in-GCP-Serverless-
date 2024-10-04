@@ -1,0 +1,32 @@
+Note: before this procedure , your flask ml project should work locally
+
+Step1: Create Google Account
+Step2: Go to Google Console
+Step3: Activate the free Credits
+Step4: Go to IAM from left side three stacked horizontal line 
+Step5: In the left side option "Managed Resource"
+Step6: Click "Create Project"
+Step7: In Project Id: "give proper project name in lower case"
+Step8: Download Google Cloud SDK using below link 
+
+https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKinstaller.exe
+
+Stpe9: Install the downloaded .exe file.
+
+Step10: After installation, open --> Command Prompt
+
+Step11:Navigate to the working Directory
+
+Step12:Create app.yaml (Must for App Engine Deployment)--> echo. > yourfile.yaml
+
+Step13: open yaml file - put runtime:python311
+
+Step14: gcloud init
+
+ask for several authentication process, kindly read it and procced accordingly
+
+step15:gcloud app deploy --> Gives global url
+
+step16: gcloud app browse --> to view the app
+
+Step17: To disable , under managed resource click settings and give "Disable the Application"
