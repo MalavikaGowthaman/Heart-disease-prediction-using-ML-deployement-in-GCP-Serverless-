@@ -6,7 +6,6 @@
 This project builds a machine learning model to predict whether a patient is affected by heart disease. The model is developed using Python and Flask and can be deployed for healthcare professionals to facilitate early diagnostics.
 
 ![alt text](image.png)
-
 ## Steps to Develop the ML Model
 
 1. **Collect the Data**: Gather relevant patient health data.
